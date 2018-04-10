@@ -556,6 +556,11 @@
     background: #fff;
 }
 
+.content table:not(.rf-tablegrid) {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
 /* Icons */
 
 #actividad .player.audio {
@@ -675,8 +680,9 @@
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
 #actividad .workspace.ordenar .js-rank-item {
-    border: 2px solid #10A0C6;
-    background: #fff;
+    border: 2px solid #fff;
+    background: #ccc;
+    color: white;
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
@@ -718,4 +724,3 @@ body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable
     height: 27px;
    font-size: 1.8rem;
 }
-
