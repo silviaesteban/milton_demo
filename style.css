@@ -556,11 +556,6 @@
     background: #fff;
 }
 
-.content table:not(.rf-tablegrid) {
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-}
-
 /* Icons */
 
 #actividad .player.audio {
