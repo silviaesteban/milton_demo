@@ -1,15 +1,15 @@
 (function (blink) {
 	'use strict';
 
-	var PopTropicaStyle = function () {
+	var milton_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	PopTropicaStyle.prototype = {
-		bodyClassName: 'content_type_clase_poptropica',
+	milton_demoStyle.prototype = {
+		bodyClassName: 'content_type_clase_milton_demo',
 		ckEditorStyles: {
-			name: 'poptropica',
+			name: 'milton_demo',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -91,8 +91,8 @@
 		}
 	};
 
-	PopTropicaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), PopTropicaStyle.prototype);
+	milton_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), milton_demoStyle.prototype);
 
-	blink.theme.styles.poptropica = PopTropicaStyle;
+	blink.theme.styles.milton_demo = milton_demoStyle;
 
 })( blink );
