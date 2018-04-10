@@ -1,20 +1,98 @@
-/* General */
+/* Fonts */
 
-	body.content_type_clase_milton_demo {
-		font-size: 1.8rem;
-		font-family: Arial;
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Thin.otf);
+	  font-weight: 100;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-ThinItalic.otf);
+	  font-weight: 100;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Light.otf);
+	  font-weight: 200;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-LightItalic.otf);
+	  font-weight: 200;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Regular.otf);
+	  font-weight: 400;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Italic.otf);
+	  font-weight: 400;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Medium.otf);
+	  font-weight: 500;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-MediumItalic.otf);
+	  font-weight: 500;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Bold.otf);
+	  font-weight: 700;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-BoldItalic.otf);
+	  font-weight: 700;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Heavy.otf);
+	  font-weight: 900;
+	  letter-spacing: 2px;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-HeavyItalic.otf);
+	  font-weight: 900;
+	  font-style: italic;
+	  letter-spacing: 2px;
 	}
 
-	body.content_type_clase_milton_demo #actividad .content img {
+	@font-face {
+	  font-family: GhostKid;
+	  src: url(fonts/Ghost-Kid-AOE.ttf);
+	  font-weight: 400;
+	}
+
+
+/* General */
+
+	body.content_type_clase_poptropica {
+		font-size: 1.8rem;
+		font-family: CamphorPro;
+	}
+
+	body.content_type_clase_poptropica #actividad .content img {
 		padding: 5px;
 	}
 
 
-	.is_app.content_type_clase_milton_demo {
+	.is_app.content_type_clase_poptropica {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_milton_demo #actividad {
+	.content_type_clase_poptropica #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
@@ -28,18 +106,14 @@
 		position: relative;
 	}
 
-	.content_type_clase_milton_demo #actividad .slide-concatenate {
+	.content_type_clase_poptropica #actividad .slide-concatenate {
 		margin-top: 30px;
 	}
 
-	.content_type_clase_milton_demo #actividad .content .header .title img,
-	.content_type_clase_milton_demo #actividad .content .header .chapter {
+	.content_type_clase_poptropica #actividad .content .header .title img,
+	.content_type_clase_poptropica #actividad .content .header .chapter {
 		display: none;
 	}
-    #indice .units ul li{
-        border-radius: 0px;
-    }
-
 
 	#indice .units ul li a .number,
 	#indice .unit-content .header .number
@@ -47,32 +121,22 @@
 		visibility: hidden;
 	}
 
-    #indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-        background: #62c7f3;
-    }
-
-
-    .content_type_clase_milton_demo .slide_main input, .content_type_clase_milton_demo .slide_main .img-input-container{
-    border-bottom: 2px solid #aaa;
-    }
-
-
-	.content_type_clase_milton_demo #actividad .content .header {
+	.content_type_clase_poptropica #actividad .content .header {
 		border: none;
 		margin-bottom: 0;
 	}
 
-	.content_type_clase_milton_demo #actividad .content .header .title {
-    margin: -40px 0 20px;
-    background: #aaa;
-    padding: 20px 97px;
-    }
+	.content_type_clase_poptropica #actividad .content .header .title {
+		margin: -40px 0 20px;
+		background: #10A0C6;
+		padding: 20px 97px;
+	}
 
-	.content_type_clase_milton_demo #actividad .content .slide-concatenate .header .title {
+	.content_type_clase_poptropica #actividad .content .slide-concatenate .header .title {
 		display: none;
 	}
 
-	.content_type_clase_milton_demo #actividad .content .header .title h3 {
+	.content_type_clase_poptropica #actividad .content .header .title h3 {
 		position: relative;
 		display: block;
 		width: 100%;
@@ -84,15 +148,15 @@
 		text-align: right;
 	}
 
-	.content_type_clase_milton_demo #actividad .content .header .title h3 span {
+	.content_type_clase_poptropica #actividad .content .header .title h3 span {
 		float: left;
 		font-size: 1.8rem;
 		font-weight: 900;
 		line-height: 1.1rem;
 	}
 
-	.content_type_clase_milton_demo #actividad .slide_content_type_1 .pregunta .texto_curso,
-	.content_type_clase_milton_demo #actividad .texto_curso,
+	.content_type_clase_poptropica #actividad .slide_content_type_1 .pregunta .texto_curso,
+	.content_type_clase_poptropica #actividad .texto_curso,
 	.html-book {
 		font-size: 1.8rem;
 	}
@@ -101,8 +165,8 @@
 		margin-bottom: 15px;
 	}
 
-	.content_type_clase_milton_demo #actividad .texto_curso li,
-	.content_type_clase_milton_demo #actividad .workspace ul li li {
+	.content_type_clase_poptropica #actividad .texto_curso li,
+	.content_type_clase_poptropica #actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
 
@@ -122,18 +186,18 @@
 	    padding-bottom: 100px;
 	}
 
-	.content_type_clase_milton_demo .slide_main {
+	.content_type_clase_poptropica .slide_main {
 		padding: 0 97px;
 	}
 
 	@media screen and (max-width: 480px) {
-		.content_type_clase_milton_demo .slide_main {
+		.content_type_clase_poptropica .slide_main {
 			padding: 0 35px;
 		}
 	}
 
-	.content_type_clase_milton_demo .slide_main input,
-	.content_type_clase_milton_demo .slide_main .img-input-container {
+	.content_type_clase_poptropica .slide_main input,
+	.content_type_clase_poptropica .slide_main .img-input-container {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -153,8 +217,8 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_milton_demo .slide_main input:focus,
-	.content_type_clase_milton_demo .slide_main .img-input-container:focus {
+	.content_type_clase_poptropica .slide_main input:focus,
+	.content_type_clase_poptropica .slide_main .img-input-container:focus {
 		border-top-color: #85c939;
 		border-right-color: #85c939;
 		border-bottom-color: #85c939;
@@ -166,35 +230,35 @@
 		        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0.6);
 	}
 
-	.content_type_clase_milton_demo .slide_main input[disabled],
-	.content_type_clase_milton_demo .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_milton_demo .slide_main input,
-	.content_type_clase_milton_demo .slide_main .img-input-container {
+	.content_type_clase_poptropica .slide_main input[disabled],
+	.content_type_clase_poptropica .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_poptropica .slide_main input,
+	.content_type_clase_poptropica .slide_main .img-input-container {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_milton_demo .slide_main .img-input-container input[readonly],
-	.content_type_clase_milton_demo .slide_main .img-input-container input[disabled] {
+	.content_type_clase_poptropica .slide_main .img-input-container input[readonly],
+	.content_type_clase_poptropica .slide_main .img-input-container input[disabled] {
 		opacity: 0;
 		filter: alpha(opacity=0);
 	}
 
-	.content_type_clase_milton_demo .slide_main input.respuesta_ok,
-	.content_type_clase_milton_demo .slide_main .img-input-container.respuesta_ok {
+	.content_type_clase_poptropica .slide_main input.respuesta_ok,
+	.content_type_clase_poptropica .slide_main .img-input-container.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_milton_demo .slide_main input.respuesta_ko,
-	.content_type_clase_milton_demo .slide_main .img-input-container.respuesta_ko {
+	.content_type_clase_poptropica .slide_main input.respuesta_ko,
+	.content_type_clase_poptropica .slide_main .img-input-container.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_milton_demo .slide_main input.solucion,
-	.content_type_clase_milton_demo .slide_main .img-input-container.solucion {
+	.content_type_clase_poptropica .slide_main input.solucion,
+	.content_type_clase_poptropica .slide_main .img-input-container.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -206,12 +270,27 @@
 /**/
 
 /* Navbar */
-.navbar-bottom {
-    background: #aaa;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+	.navbar-bottom {
+		background: #132E4C;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 
+	.logo-publisher {
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 44px;
+		background: url(logo-pearson.png) 0 0 no-repeat;
+		-webkit-background-size: contain;
+		   -moz-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+		background-position: center center;
+
+	}
 
 	@media only screen and (max-width: 640px) {
 		.navbar-bottom {
@@ -276,14 +355,14 @@
 		font-weight: bold;
 		text-indent: initial;
 	}
-    #bottom-navigator li:hover {
-        background: #d8d8d8;
-        color: transparent;
-    }
-    #bottom-navigator li.active {
-        background: #555;
-        color: transparent;
-    }
+	#bottom-navigator li:hover {
+		background: rgb(142, 206, 224);
+		color: transparent;
+	}
+	#bottom-navigator li.active {
+		background: #007FA3;
+		color: transparent;
+	}
 	#bottom-navigator.show_left:before {
 		content: '\F053';
 		font-family: 'FontAwesome';
@@ -326,20 +405,27 @@
 /*TITULO 1*/
 
 .bck-title1 {
-    display: inline-block;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    background: none;
-    padding: 4px 8px;
-    color: #666;
-    font-family: inherit;
-    font-size: 3rem;
+	display: inline-block;
+	-webkit-box-shadow: 0 0 0 2px #10a0c6;
+	   -moz-box-shadow: 0 0 0 2px #10a0c6;
+	        box-shadow: 0 0 0 2px #10a0c6;
+	border: 2px solid #fff;
+	background: #9ac9df;
+	padding: 4px 8px;
+	color: #10a0c6;
+    font-family: GhostKid;
+    font-size: 2.4rem;
     letter-spacing: 1px;
-    text-shadow: none;
+    text-shadow: 1px 1px #fff,
+    			 1px 0px #fff,
+    			 1px -1px #fff,
+    			 0px -1px #fff,
+    			 -1px -1px #fff,
+    			 -1px 0px #fff,
+    			 -1px 1px #fff,
+    			 0px 1px #fff,
+    			 2px 2px #10a0c6;
     line-height: 1;
-    font-weight: 800;
 }
 
 /*TITULO 2*/
@@ -397,16 +483,30 @@
 	line-height: 1.1rem;
 }
 
-.content .bck-ol1 li:before, .cke_contents .bck-ol1 li:before, .content ol li:before, .cke_contents ol li:before{
-     box-shadow:none;
-    border: 2px solid #aaa;
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before,
+.content ol li:before,
+.cke_contents ol li:before {
+    content: counter(bck-li-counter);
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+	   -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+			box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+    border: 1px solid #b25313;
     -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: #aaa;
-    width: 27px;
-    height: 27px;
-   font-size: 1.8rem;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: #F58220;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 /*LISTA ORDENADA 2*/
@@ -466,21 +566,14 @@
 /*CAJAS*/
 
 .bck-box {
-    margin: 10px;
-    border: none;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 24px;
-    background: #FFF47F;
-    padding: 6px;
+	margin: 10px;
+	border: 2px solid #10a0c6;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	padding: 6px;
 }
-
-.bck-title.js--title {
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-    color: black;
-    font-weight: 700;
-}
-
 
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
@@ -541,8 +634,9 @@
 
 .content table:not(.rf-tablegrid) td,
 .content table:not(.rf-tablegrid) th {
+    border: 3px solid #fff;
     padding: 10px;
-    background: #fff;
+    background: #D4EAE4;
 }
 
 .content table:not(.rf-tablegrid) {
@@ -593,8 +687,8 @@
 
 /* Forms */
 
-.content_type_clase_milton_demo .slide_main input,
-.content_type_clase_milton_demo .slide_main .img-input-container {
+.content_type_clase_poptropica .slide_main input,
+.content_type_clase_poptropica .slide_main .img-input-container {
     -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
        -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
@@ -605,12 +699,12 @@
     		border-radius: 0px;
 }
 
-.content_type_clase_milton_demo .slide_main .fill-text .img-input-container {
+.content_type_clase_poptropica .slide_main .fill-text .img-input-container {
     display: none;
 }
 
-.content_type_clase_milton_demo .slide_main input:focus,
-.content_type_clase_milton_demo .slide_main .img-input-container:focus {
+.content_type_clase_poptropica .slide_main input:focus,
+.content_type_clase_poptropica .slide_main .img-input-container:focus {
     border-top-color: #10A0C6;
     border-right-color: #10A0C6;
     border-bottom-color: #10A0C6;
@@ -621,50 +715,6 @@
 }
 
 /* Slides */
-
-
-#actividad .respuesta_over .box {
-    background-color: transparent;
-    font-size: 22px;
-}
-
-#actividad .respuesta_checked .box{
-    background-color: transparent;
-    font-size: 22px;
-}
-
-#actividad .workspace.true-false .tf-option {
-    display: inline-block;
-    margin-left: 34px;
-    margin-top: 22px;
-    background-color: #aaa;
-    border-radius: 18px;
-    padding: 2px 28px;
-    color: white;
-}
-
-#actividad .workspace label {
-    font-weight: bold;
-}
-
-.radio-option input.filter-radio[type="radio"]+label.filter-label {
-    cursor: pointer;
-    display: inline-block;
-    line-height: 24px;
-    padding-left: 26px;
-    padding-right: 20px;
-    vertical-align: middle;
-}
-
-
-#actividad .workspace.matching .opcion {
-    border: none;
-    color: white;
-    background: #ccc;
-    font-weight: 750;
-    border-radius: 20px;
-    margin-bottom: 8px;
-}
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
@@ -691,9 +741,9 @@
     padding: 0;
 }
 
-body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable-wrapper
+body.content_type_clase_poptropica #actividad .content .fillblanks-draggable-wrapper
 .response .bck-i-fullscreen,
-body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable
+body.content_type_clase_poptropica #actividad .content .fillblanks-draggable
 .img-input-container.imgFilled img {
 	width: auto;
 	height: 100px !important;
