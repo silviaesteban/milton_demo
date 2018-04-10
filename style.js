@@ -1,26 +1,34 @@
 (function (blink) {
 	'use strict';
 
-	var milton_demoStyle = function () {
+	var PopTropicaStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	milton_demoStyle.prototype = {
-		bodyClassName: 'content_type_clase_milton_demo',
+	PopTropicaStyle.prototype = {
+		bodyClassName: 'content_type_clase_poptropica',
 		ckEditorStyles: {
-			name: 'milton_demo',
+			name: 'poptropica',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
 
 				{ name: 'Lista ordenada1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
-
+				{ name: 'Lista ordenada2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
+				{ name: 'Lista ordenada3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
+				{ name: 'Lista ordenada4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
+				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
+				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
 
-
+				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
+				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
+				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
+				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
+				{ name: 'Icono Star', element: 'span', attributes: { 'class': 'icon icon-star' } }
 			]
 		},
 
@@ -83,8 +91,8 @@
 		}
 	};
 
-	milton_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), milton_demoStyle.prototype);
+	PopTropicaStyle.prototype = _.extend({}, new blink.theme.styles.basic(), PopTropicaStyle.prototype);
 
-	blink.theme.styles.milton_demo = milton_demoStyle;
+	blink.theme.styles.poptropica = PopTropicaStyle;
 
 })( blink );
