@@ -712,7 +712,7 @@ body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable
 	padding: 0;
 }
 
-
+/*
 .content .bck-ol1 li:before, .cke_contents .bck-ol1 li:before, .content ol li:before, .cke_contents ol li:before {
      box-shadow:none;
     border: 2px solid #aaa;
@@ -723,4 +723,4 @@ body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable
     width: 27px;
     height: 27px;
    font-size: 1.8rem;
-}
+}*/
