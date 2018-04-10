@@ -557,7 +557,7 @@
 }
 
 .content table:not(.rf-tablegrid) {
-    border: 1px solid #F37731;
+    border: 1px solid #fff;
     margin-bottom: 20px;
 }
 
