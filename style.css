@@ -684,3 +684,11 @@ body.content_type_clase_milton_demo #actividad .content .fillblanks-draggable
     height: 27px;
    font-size: 1.8rem;
 }
+
+.bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: 400px;
+    padding: 10px;
+    background-color: #eee;
+}
