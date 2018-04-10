@@ -1,9 +1,9 @@
 /* General */
 
 	body.content_type_clase_milton_demo {
-		font-size: 1.8rem;
-		font-family: Arial;
-	}
+  	  font-size: 1.8rem;
+   	 font-family: arial;
+		}
 
 	body.content_type_clase_milton_demo #actividad .content img {
 		padding: 5px;
