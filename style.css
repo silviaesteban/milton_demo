@@ -220,10 +220,6 @@
 			padding-right: 40px;
 		}
 
-		.logo-publisher {
-			width: 40px;
-			background-image: url(Pearson-logo-2016-219x286.png);
-		}
 	}
 
 	.slider-indicators {
@@ -418,6 +414,10 @@
     line-height: 2.5rem;
 }
 
+ol.bck-ol.bck-ol2 li:before {
+    background: grey;
+    border: grey;
+}
 
 
 /*LISTA DESORDENADA POR DEFECTO*/
@@ -451,56 +451,6 @@
 	margin-bottom: 0;
 }
 
-/* Caja 2 */
-.bck-box.bck-box2 {
-	-webkit-box-shadow: 0 3px 0 #BCBDC0;
-	   -moz-box-shadow: 0 3px 0 #BCBDC0;
-	        box-shadow: 0 3px 0 #BCBDC0;
-	-webkit-border-radius: 50%;
-	   -moz-border-radius: 50%;
-	        border-radius: 50%;
-	padding: 6px 15px;
-	text-align: center;
-}
-
-/* Caja 3 */
-.bck-box.bck-box3 {
-	position: relative;
-	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	        box-shadow: 1px 1px 1px rgba(0,0,0,.5);
-	-webkit-transform: rotate(2deg);
-	   -moz-transform: rotate(2deg);
-	    -ms-transform: rotate(2deg);
-	     -o-transform: rotate(2deg);
-	        transform: rotate(2deg);
-}
-
-.bck-box.bck-box3 .bck-title {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	   -moz-transform: translate(-50%,-50%);
-	    -ms-transform: translate(-50%,-50%);
-	     -o-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
-	display: inline-block;
-	border: 1px solid #10a0c6;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
-	background: #fff;
-	padding: 0 6px;
-}
-
-.bck-box.bck-box3 .bck-title p {
-	display: inline;
-}
-
-.bck-box.bck-box3 .bck-content {
-	margin-top: 15px;
-}
 
 /*TABLA POR DEFECTO*/
 
