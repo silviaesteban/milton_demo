@@ -414,9 +414,12 @@
     line-height: 2.5rem;
 }
 
+/*lista ordenada 2*/
 ol.bck-ol.bck-ol2 li:before {
-    background: grey;
+    color: grey;
+    background-color: transparent;
     border: grey;
+    content: counter(bck-li-counter, lower-alpha)'.';
 }
 
 
